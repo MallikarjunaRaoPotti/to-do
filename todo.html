@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo.css">
+    <title>Daily To-Do App</title>
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>Daily To-Do App</h1>
+            <p id="current-date"></p>
+        </header>
+        <div id="task-container">
+            <div class="task-block" id="pending-tasks">
+                <h2>Pending Tasks</h2>
+                <ul id="pending-list"></ul>
+            </div>
+            <div class="task-block" id="completed-tasks">
+                <h2>Completed Tasks</h2>
+                <ul id="completed-list"></ul>
+            </div>
+        </div>
+        <div id="add-task-container">
+            <input type="text" id="task-input" placeholder="Add a new task...">
+            <button onclick="addTask()">Add Task</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+v
